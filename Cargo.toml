@@ -15,12 +15,20 @@ crate-type = [
 
 [dependencies]
 playdate-sys = "*"
+playdate-system = "*"
 playdate-color = "*"
 playdate-controls = "*"
 playdate-fs = "*"
 playdate-graphics = "*"
 playdate-sprite = "*"
+playdate-display = "*"
 playdate = "*"
+
+
+[[example]]
+name = "block"
+crate-type = ["dylib", "staticlib"]
+path = "examples/block.rs"
 
 
 # See more about playdate metadata:
